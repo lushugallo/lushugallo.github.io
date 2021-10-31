@@ -1,0 +1,48 @@
+/* INGRESAR */
+
+
+#section_form {
+    width: 70%;
+    margin: auto;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 80%;
+    background-color:rgb(224, 210, 9) ;
+}
+
+
+div label {
+    color: black;
+
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+.footer {
+    height: 10vh;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: right;
+}
+
+.footer p {
+    width: 95%;
+}

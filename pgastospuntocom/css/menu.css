@@ -1,0 +1,121 @@
+/* MENU NAVEGADOR*/
+.menu {
+    display: flex;
+    background-color: #000;
+    height: 10vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marca {
+    color: floralwhite;
+    font-size: 2rem;
+    padding: 0 2.5em;
+}
+
+.items_menu {
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.items_menu li {
+    border-radius: .6rem;
+    margin: 0 .5rem;
+    margin-top: 1rem;
+}
+
+.items_menu li a {
+    padding: .6rem .8rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    color: floralwhite;
+}
+
+.items_menu li:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: .2s;
+}
+
+.icon_menu {
+    margin-right: 2rem;
+    font-size: 1.8rem ;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+ul.show {
+    top: 11vh;
+    height: 60vh;
+}
+
+@media screen and (max-width: 952px) {
+    .marca {
+    font-size: 1.5rem;
+    }
+
+    .items_menu li a {
+    font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .menu {
+        height: 65px;  
+        position: fixed;
+    }
+
+    .icon_menu {
+        display: inline-flex;
+    }
+
+    .items_menu {
+        position: fixed;
+        width: 100vw;
+        height: calc(100%-65px);
+        background: #000;
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+    }
+
+    .items_menu li {
+        margin: 2rem 0 0 0;
+        line-height: 2rem;
+    }
+
+
+    .items_menu li:hover {
+        background: none;
+    }
+
+    .items_menu li a {
+        font-size: 1.5rem;
+        color:floralwhite;
+    }
+    .items_menu li a:hover {
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    .marca {
+        font-size: 2rem;
+        padding: 1.2em;
+
+    }
+}
+
+@media screen and (max-width:858px) and (orientation: landscape) {
+    .items_menu li {
+        margin: 5px 0 0 0;
+    }
+
+    .items_menu {
+        overflow: scroll;
+        height: calc(100%-65px);
+    }
+    
+}

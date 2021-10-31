@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/ingresar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/68c4e2fc4b.js" crossorigin="anonymous"></script>
+    <script src="js/menujs.js" defer></script>
+</head>
+<body>
+    <header>
+
+        <nav class="menu">
+
+            <label class="marca"> LA MARCA </label>
+
+            <ul class="items_menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotrxs.html">Sobre nosotrxs</a></li>   
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Registrate</a></li>
+            </ul>
+
+            <span class="icon_menu">
+                <i class="fas fa-bars"></i>
+            </span>
+        </nav>
+    </header>
+    
+
+<section id="section_form"> 
+<form action="" id="form_contacto">
+<div>
+  <label for="Nombre">Ingresá tu nombre</label>
+  <input type="text" id="Nombre">
+</div>
+
+<div>
+  <label for="Mail">Ingresá tu correo</label>
+  <input type="email" id="Email">
+</div>
+
+<div class="consulta">
+  <label for="Consulta">Dejanos tu consulta</label>
+  <input type="text" id="Mensaje">
+</div>
+
+<div id="error">
+
+</div>
+
+<input type="submit" onclick='return enviarForm()' value='Enviar'>
+
+
+
+
+</form>
+</section>   
+
+
+<!--
+    <form class="formulario" name="form_ingreso" onsubmit="return validar_form();">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Ingresá tu mail</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Ingresá tu contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="checkbox_edad" >
+          <input type="checkbox" name="checkbox_ingreso" id="checkbox_ID">
+          <label for="checkbox_ID">Soy mayor de edad</label>
+          <br>
+          <br>
+          <input type="submit" value="Enviar"/>
+        </div>
+        <br>
+        <br>
+        <div id="info_form">
+        </div>
+      </form>
+    -->
+
+
+        
+
+
+
+</body>
+
+<footer>
+    <div class="footer">
+        <p> <br>
+            Copyright 2021
+            <br>
+        </p>
+    </div>
+</footer>
+
+  
+  <!--acá van los scripts-->
+  <script src="js/index.js"></script>
+  <!--a<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>-->
+  <script src="js/form.js"></script>
+  </html>
+</html>

@@ -1,0 +1,198 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+
+/* MAIN SECTION NOSOTRXS*/
+
+
+#main-section-nosotrxs {
+    display: flex;
+    /*flex-wrap: nowrap revisar pq si lo pongo en wrap se va para abajo de una*/
+}
+
+
+.main-section-nosotrxs-left {
+    background: rgb(224, 210, 9);
+    height: 90vh;
+    width: 65%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.nosotros_titulo {
+    color: floralwhite;
+    font-size: 120%;
+}
+
+.main-section-nosotrxs-right {
+    background: url(../img/grupo.jpeg);
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 35%;
+}
+
+.main-section-nosotrxs-left h2 {
+    font-size: 1.9rem;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.main-section-nosotrxs-left h3 {
+    font-size: 1.4rem;
+    margin: auto;
+    margin-bottom:5%;
+    margin-top: 2%;
+    color:rgb(54, 47, 47);
+}
+
+.main-section-nosotrxs-left p {
+    margin: auto;
+    margin-top: 2%;
+    font-size: 1.25rem;
+    width: 80%;
+    line-height: 90%;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 850px) {
+    #main-section-nosotrxs {
+        display: flex;
+        /*flex-wrap: nowrap revisar pq si lo pongo en wrap se va para abajo de una*/
+    }
+    
+    
+    .main-section-nosotrxs-left {
+        background: rgb(224, 210, 9);
+        height: 90vh;
+        width: 65%;
+        margin-top: 8%;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+    
+    .nosotros_titulo {
+        color: floralwhite;
+        font-size: 90%;
+    }
+    
+    .main-section-nosotrxs-right {
+        background: url(../img/grupo.jpeg);
+        background-repeat: no-repeat;   
+        background-size: cover;
+        background-position: center;
+        margin-top: 8%;
+        height: 90vh;
+        width: 35%;
+    }
+    
+    .main-section-nosotrxs-left h2 {
+        font-size: 1.9rem;
+        margin: auto;
+        margin-top: 4%;
+    }
+    
+    .main-section-nosotrxs-left h3 {
+        font-size: 1.1rem;
+        margin: auto;
+        margin-bottom: 5%;
+        margin-top: 2%;
+        color:rgb(54, 47, 47);
+    }
+    
+    .main-section-nosotrxs-left p {
+        margin: auto;
+        margin-top: 2%;
+        font-size: 100%;
+        width: 80%;
+        line-height: 90%;
+        text-align: justify;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width:600px) {
+    #main-section-nosotrxs {
+        flex-wrap: wrap;
+    }
+    
+    
+    .main-section-nosotrxs-left {
+        background: rgb(224, 210, 9);
+        height: 90vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+    
+    .nosotros_titulo {
+        color: floralwhite;
+        font-size: 100%;
+    }
+    
+    .main-section-nosotrxs-right {
+        background: url(../img/grupo.jpeg);
+        background-repeat: no-repeat;   
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+        margin-top: 0%;
+        width:  100%;
+    }
+    
+    .main-section-nosotrxs-left h2 {
+        font-size: 1.4rem;
+        margin: auto;
+        margin-top: 15%;
+    }
+    
+    .main-section-nosotrxs-left h3 {
+        font-size: 1rem;
+        margin: auto;
+        margin-bottom:5%;
+        margin-top: 2%;
+        color:rgb(54, 47, 47);
+    }
+    
+    .main-section-nosotrxs-left p {
+        margin: auto;
+        font-size: 90%;
+        width: 80%;
+        line-height: 90%;
+        text-align: justify;
+    }
+    
+}
+
+
+
+
+
+/* FOOTER */
+
+.footer {
+    height: 10vh;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: right;
+}
+
+.footer p {
+    width: 95%;
+}
+
+
